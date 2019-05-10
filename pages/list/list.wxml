@@ -1,0 +1,11 @@
+<!--pages/list/list.wxml-->
+
+<view class="xc-list" wx:for="{{listData}}" wx:key="item.id">
+  <navigator
+    open-type="navigate"
+    hover-class='none'
+    url="/pages/article/article?datas={{item.id}}"
+  >
+    {{item.title}}
+  </navigator>
+</view>

@@ -1,0 +1,31 @@
+/* pages/article/article.wxss */
+/**基础风格样式**/
+@import '../../lib/style/main.wxss';
+
+
+/**如果页面有动态主题切换，则需要将使用到的样式全部引入**/
+
+/**主题配色（浅色样式）**/
+@import '../../lib/style/theme/light.wxss';
+
+/**主题配色（深色样式）**/
+@import '../../lib/style/theme/dark.wxss';
+
+.noReward{
+  text-align: center;
+  padding-top:100rpx;
+  font-size: 32rpx;
+  color:#108ee9;
+}
+.artile-title{
+  font-size: 38rpx;
+  color:#888;
+  margin:0 auto;
+  text-align: center;
+}
+.artile-time{
+  font-size: 24rpx;
+  color:#eee;
+  text-align: right;
+  padding-right:50rpx;
+}

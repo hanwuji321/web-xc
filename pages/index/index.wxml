@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="xc-item" wx:for="{{datas}}" wx:key="item.id">
+  <view class="xc-img"><image class="" src="{{item.img}}"></image></view>
+  <view class="xc-text">
+     
+      <navigator
+        open-type="navigate"
+        hover-class='none'
+        url="/pages/list/list?aid={{item.id}}"
+      >
+      <view class="xc-name"  bindtap="_onClickName">
+        {{item.name}} </view>
+      </navigator>
+   
+    <view class="xc-desc">{{item.desc}}</view>
+  </view>
+</view>

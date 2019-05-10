@@ -1,0 +1,13 @@
+<!--pages/article/article.wxml-->
+<view class="noReward" wx:if="{{loading}}">
+ <icon type="waiting" size="80" />
+  <view>loading...</view>  
+</view>
+<view class="artile-cont"  wx:if="{{!loading}}">
+  <!-- <text class="artile-title">{{datas.title}}</text>
+  <view clsss="artile-time">{{datas.createdAt}}</view> -->
+  <import src="../../lib/entry.wxml"/>
+  <template is="entry" data="{{...article}}"/>
+</view>
+
+
