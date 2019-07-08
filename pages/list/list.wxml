@@ -1,4 +1,10 @@
 <!--pages/list/list.wxml-->
+ <cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content">列表</view>
+  </cu-custom>
+<view class="wrap">
+ 
 
 <view class="xc-list" wx:for="{{listData}}" wx:key="item.id">
   <navigator
@@ -6,6 +12,7 @@
     hover-class='none'
     url="/pages/article/article?datas={{item.id}}"
   >
-    {{item.title}}
+    {{index+1}}.{{item.title}}
   </navigator>
+</view>
 </view>

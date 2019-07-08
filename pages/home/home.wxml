@@ -1,13 +1,88 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
+<view class="container" >
+  <view class="userinfo ">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="userinfo-nickname">Hi  {{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+   <image src="https://image.weilanwl.com/gif/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+</view>
+<view class="cu-conts">
+  <view class="aa">
+    <text class="vv"><text class="borderLeft"></text>最近更新</text>
   </view>
+  
+
+  
+  <view class="cu-timeline">
+    <view class="cu-item text-green">
+      <view class="bg-gradual-green content shadow">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-white text-green">v1.0.3</view>
+          <view class="cu-tag line-white">2019/05/15</view>
+        </view>
+        <view class="margin-top-sm text-content">
+          <view>新增小册：</view>
+          <view>1.React实战：设计模式与最佳实践</view>
+          <view>2.git原理详解与实用指南</view>
+        </view>
+        
+      </view>   
+    </view>
+    <view class="cu-item text-green">
+      <view class="bg-green content shadow">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-white text-green">v1.0.2</view>
+          <view class="cu-tag line-white">2019/04/06</view>
+        </view>
+        <view class="margin-top-sm text-content">
+          <view>新增小册：</view>
+          <view>1.react组合开发实践</view>
+          <view>2.vue项目构建与开发入门</view>
+          <view>3.vue.js组件精讲</view>
+          <view>4.web前段面试指南与高频考题解析</view>
+          <view>5.Taro多端开发实践原理与项目实践</view>
+        </view>
+        
+      </view>   
+    </view>
+    <view class="cu-item text-green">
+      <view class="bg-green content shadow">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-white text-green">v1.0.1</view>
+          <view class="cu-tag line-white">2019/02/25</view>
+        </view>
+        <view class="margin-top-sm text-content">
+          <view>新增小册：</view>
+          <view>1.剖析vue.js内部运行机制</view>
+          <view>2.如何使用canvas制作特效</view>
+          <view>3.微信小程序开发入门</view>
+          <view>4.使用npm script打造超溜的前端工作流</view>
+        </view>
+        
+      </view>   
+    </view>
+    <view class="cu-item text-green">
+      <view class="bg-green content shadow">
+        <view class="cu-capsule radius">
+          <view class="cu-tag bg-white text-green">v1.0.0</view>
+          <view class="cu-tag line-white">2018/12/23</view>
+        </view>
+        <view class="margin-top-sm text-content">
+          <view>新增小册：</view>
+          <view>1.前端面试之道</view>
+          <view>2.前端性能优化原理与实践</view>
+          <view>3.使用webpacket定制前端开发环境</view>
+          <view>4.大厂H5开发实战手册</view>
+          <view>5.基于JavaScript开发灵活的数据应用</view>
+        </view>
+        
+      </view>
+    </view>
+    
+  </view>
+
+
 </view>

@@ -11,14 +11,14 @@ Page({
         name: '前端面试之道',
         xcid: 1,
         desc: '助你建立起完整的前端知识架构体系，探究知识的原理，深入了解大厂常考知识点',
-        "img": "https://user-gold-cdn.xitu.io/2018/12/25/167e14942f2dcf44?w=1950&h=2730&f=png&s=1007819",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc1.png",
       },
       {
         id: 2,
         name: '前端性能优化原理与实践',
         xcid: 2,
         "desc": "毫秒必争！深入理解前端性能原理，将晦涩的知识转化为可爱的生产力，建立你自己的优化技能索引目录",
-        "img": "https://user-gold-cdn.xitu.io/2018/10/23/166a0387b91066b9?w=650&h=910&f=png&s=250749",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc2.png",
       },
       {
         id: 3,
@@ -30,7 +30,7 @@ Page({
         "buyCount": 4284,
         "viewCount": 0,
         "contentSize": 89053,
-        "img": "https://user-gold-cdn.xitu.io/2018/3/2/161e5a0aebdab5ed?w=650&h=910&f=png&s=238516",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc3.png",
       },
       {
         id: 4,
@@ -43,7 +43,7 @@ Page({
         "buyCount": 3021,
         "viewCount": 0,
         "contentSize": 80220,
-        "img": "https://user-gold-cdn.xitu.io/2018/5/9/16342f9666cf9b8f?w=650&h=910&f=png&s=313968",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc4.png",
       },
       {
         id: 5,
@@ -56,21 +56,21 @@ Page({
         "buyCount": 1208,
         "viewCount": 0,
         "contentSize": 196735,
-        "img": "https://user-gold-cdn.xitu.io/2018/4/9/162a9c24e48d274b?w=650&h=910&f=png&s=453022",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc5.png",
       },
       {
         id: 6,
         name: '剖析 Vue.js 内部运行机制',
         xcid: 6,
         "desc": "把原理抽象为小 Demo，以一种对新手友好的方式带领读者漫游 Vue.js 的世界",
-        "img": "https://user-gold-cdn.xitu.io/2018/1/16/160fdc404b36a1a0?w=650&h=910&f=png&s=355794",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc6.png",
       },
       {
         id: 7,
         name: '如何使用 Canvas 制作出炫酷的网页背景特效',
         xcid: 7,
         "desc": "从零开始学习 Canvas 相关知识，分析其特效，最终制作出炫酷的网页背景",
-        "img": "https://user-gold-cdn.xitu.io/2017/11/20/15fd79563b28dd6e?w=650&h=910&f=png&s=253799",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc7.png",
       },
       {
         id: 8,
@@ -83,14 +83,14 @@ Page({
         "buyCount": 4206,
         "viewCount": 0,
         "contentSize": 119064,
-        "img": "https://user-gold-cdn.xitu.io/2018/8/29/16584f1faa1c4262?w=650&h=910&f=png&s=228987",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc8.png",
       },
       {
         id: 9,
         name: '用 npm script 打造超溜的前端工作流',
         xcid: 9,
         "desc": "抛弃笨重的构建工具，拥抱轻巧而不失强大的 npm script，随小册赠送视频版教程。",
-        "img": "https://user-gold-cdn.xitu.io/2017/11/20/15fd699517c3c6a4?w=650&h=910&f=png&s=200522",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc9.png",
       },
       {
         id: 10,
@@ -103,21 +103,21 @@ Page({
         "buyCount": 3340,
         "viewCount": 0,
         "contentSize": 72575,
-        "img": "https://user-gold-cdn.xitu.io/2018/9/5/165a8a3d93f6ca7d?w=650&h=910&f=png&s=215445",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc10.png",
       },
       {
         id: 11,
         name: 'Vue 项目构建与开发入门',
         xcid: 11,
         "desc": "从构建到开发，帮助 Vue 开发者提升项目构建与开发能力，基于 Vue CLI 3",
-        "img": "https://user-gold-cdn.xitu.io/2018/11/27/16754380a4c1a096?w=1300&h=1820&f=jpeg&s=1221263",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc11.png",
       },
       {
         id: 12,
         name: 'Vue.js 组件精讲',
         xcid: 12,
         "desc": "iView 作者 3 年的 Vue.js 组件开源积累，Vue.js 组件知识深入剖析",
-        "img": "https://user-gold-cdn.xitu.io/2018/12/18/167c119a41e444d5?w=1300&h=1820&f=png&s=517889",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc12.png",
       },
       {
         id: 13,
@@ -130,7 +130,7 @@ Page({
         "buyCount": 4181,
         "viewCount": 0,
         "contentSize": 82296,
-        "img": "https://user-gold-cdn.xitu.io/2018/3/5/161f664af48f2400?w=650&h=910&f=png&s=210682",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc13.png",
       },
       {
         id: 14,
@@ -143,7 +143,7 @@ Page({
         "buyCount": 3115,
         "viewCount": 0,
         "contentSize": 147336,
-        "img": "https://user-gold-cdn.xitu.io/2018/11/12/16706202cc6428df?w=1300&h=1820&f=png&s=123146",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc14.png",
       },
       {
         id: 15,
@@ -156,7 +156,7 @@ Page({
         "buyCount": 1819,
         "viewCount": 0,
         "contentSize": 109884,
-        "img": "https://user-gold-cdn.xitu.io/2018/12/4/16779ed4b21a9fa5?w=1950&h=2730&f=png&s=936421",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc15.png",
       },
       {
         id: 16,
@@ -169,7 +169,7 @@ Page({
         "buyCount": 4950,
         "viewCount": 0,
         "contentSize": 58704,
-        "img": "https://user-gold-cdn.xitu.io/2017/11/27/15ffbb05174a57f8?w=650&h=910&f=png&s=212544",
+        "img": "https://pinrenwuimage.taidu8.com/uploads/20180904/xc16.png",
       }
     ]
   },

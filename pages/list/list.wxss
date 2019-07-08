@@ -1,6 +1,14 @@
 /* pages/list/list.wxss */
 .xc-list{
-  padding:12rpx 34rpx;
+  padding:16rpx 34rpx;
   font-size: 30rpx;
   color:#108ee9;
+  border-bottom: 1rpx solid #eee;
+}
+.wrap{
+  padding:130rpx 30rpx 0 30rpx;
+  box-sizing: border-box;
+}
+.wrap>.xc-list:nth-child(odd){
+  background: rgba(99, 168, 236, 0.1);
 }

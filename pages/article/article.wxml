@@ -1,7 +1,20 @@
 <!--pages/article/article.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content">文章详情</view>
+  </cu-custom>
 <view class="noReward" wx:if="{{loading}}">
- <icon type="waiting" size="80" />
-  <view>loading...</view>  
+   <view class="circle-line">
+      <text></text>
+      <text></text>
+      <text></text>
+      <text></text>
+      <text></text>
+      <text></text>
+      <text></text>
+      <text></text>
+    </view>
+  <view>加载中</view>  
 </view>
 <view class="artile-cont"  wx:if="{{!loading}}">
   <!-- <text class="artile-title">{{datas.title}}</text>
